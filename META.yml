@@ -1,0 +1,31 @@
+---
+abstract: 'Perl implementation of GNTP Protocol (Client Part)'
+author:
+  - 'Yasuhiro Matsumoto <mattn.jp@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-Growl-GNTP
+no_index:
+  directory:
+    - examples
+    - inc
+    - t
+    - xt
+requires:
+  Crypt::CBC: 2.29
+  Data::UUID: 0.149
+  Digest::MD5: 2.36
+  Digest::SHA: 5.45
+  Filter::Util::Call: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.05
